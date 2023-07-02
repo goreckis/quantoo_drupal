@@ -1,0 +1,36 @@
+uuid: 21cda061-2843-4b82-a641-65534006d2c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.author.field_country
+    - field.field.node.author.field_name
+    - node.type.author
+  module:
+    - text
+    - user
+id: node.author.default
+targetEntityType: node
+bundle: author
+mode: default
+content:
+  field_country:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_name:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

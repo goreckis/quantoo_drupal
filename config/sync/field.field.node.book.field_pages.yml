@@ -1,0 +1,23 @@
+uuid: f329b024-d456-4ad9-9c10-c2c70a07b61d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pages
+    - node.type.book
+id: node.book.field_pages
+field_name: field_pages
+entity_type: node
+bundle: book
+label: 'Number of pages'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,11 @@
+uuid: b802c194-92e1-498d-8fcc-79d13bb28aec
+langcode: en
+status: true
+dependencies: {  }
+name: Author
+type: author
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

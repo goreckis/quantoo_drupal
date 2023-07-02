@@ -1,0 +1,11 @@
+uuid: 913993ea-70d5-41f4-87dc-83e904219e9a
+langcode: en
+status: true
+dependencies: {  }
+name: Book
+type: book
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
