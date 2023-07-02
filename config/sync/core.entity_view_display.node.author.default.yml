@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.author.field_country
-    - field.field.node.author.field_name
     - node.type.author
   module:
     - text
@@ -20,13 +19,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 102
-    region: content
-  field_name:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 101
     region: content
   links:
     settings: {  }

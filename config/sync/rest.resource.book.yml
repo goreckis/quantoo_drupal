@@ -1,0 +1,22 @@
+uuid: 08fe8897-9363-41ca-95a7-cc87803e4f1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - books
+    - serialization
+    - user
+id: book
+plugin_id: book
+granularity: resource
+configuration:
+  methods:
+    - POST
+    - DELETE
+    - PATCH
+  formats:
+    - json
+  authentication:
+    - basic_auth
+    - cookie
